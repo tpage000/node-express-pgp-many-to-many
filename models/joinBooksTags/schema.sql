@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS joinbookstags;
+
+CREATE TABLE joinbookstags (
+  ID SERIAL PRIMARY KEY,
+  book_id INTEGER REFERENCES books ON DELETE CASCADE,
+  tag_id INTEGER REFERENCES tags ON DELETE CASCADE,
+  UNIQUE (book_id, tag_id)
+)

@@ -1,0 +1,20 @@
+{
+  "name": "node-postgres-promises",
+  "version": "1.0.0",
+  "description": "http://mherman.org/blog/2016/03/13/designing-a-restful-api-with-node-and-postgres/",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg-promise": "^6.3.5",
+    "pretty-error": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
