@@ -73,6 +73,7 @@ show a single book -- with an array of all tags related to the book.
 ![](https://i.imgur.com/Dpr8bMA.png)
 
 search.sql
+
 ![](https://i.imgur.com/kn5pWFO.png)
 
 `/tags/1`
