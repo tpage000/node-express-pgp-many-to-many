@@ -14,14 +14,17 @@ Adds **Tags** model. Users can make any arbitrary collection of books, give that
 Books and tags are related through a join table.
 
 ## setup
+**Clone repo**
 
-Run create db file in bash
+**Create db from bash**
 
 ```
 $ psql -f db/create_db.sql
 ```
 
-Run schema file in bash
+**Create tables by running schema files from bash**
+
+create books table
 
 ```
 $ psql books_app_api -f models/books/schema.sql
@@ -29,10 +32,14 @@ $ psql books_app_api -f models/books/schema.sql
 
 create tags table
 
+```
+$ psql books_tags_app_api -f models/tags/schema.sql
+```
+
 create join table
 
 ```
-psql books_tags_app_api -f models/joinBooksTags/schema.sql
+$ psql books_tags_app_api -f models/joinBooksTags/schema.sql
 ```
 
 ## CONSTRAINTS
